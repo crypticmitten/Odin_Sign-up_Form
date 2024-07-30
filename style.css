@@ -26,6 +26,7 @@ body{
     justify-content: center;
 }
 
+/* Left side of the page*/
 .left{
     width: 38.5%;
     height: 100%;
@@ -49,7 +50,7 @@ body{
 img{
     height: 100%;
 }
-h1{
+.bar h1{
     font-family: "CustomFont";
     padding-top: 20px;
     font-size: min(6.5vw,84.5px);
@@ -72,4 +73,39 @@ h1{
     width: 65%;
     height: 100%;
     background-color: white;
+}
+
+/* Right side of the page*/
+.upper{
+    height: 35%;
+    width: 100%;
+    background-color: rgb(247, 249, 250);
+}
+.upper-text{
+    height: 50%;
+    width: 79%;
+    position: relative;
+    top: 45%;
+    padding-left: 5%;
+    font-size: min(1.6vw,20.8px);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+.upper-text span{
+    font-style: italic;
+}
+
+
+.middle{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+}
+.lower{
+    height: 35%;
+    width: 100%;
+    background-color: red;
+    background-color: rgb(247, 249, 250);
 }
