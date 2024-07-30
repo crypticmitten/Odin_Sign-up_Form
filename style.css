@@ -6,7 +6,6 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -19,7 +18,7 @@ body{
 
 .container{
     width: min(100%,1300px);
-    height: 70vh;
+    height: min(70vw,100vh);
     font-family: sans-serif;
     background-color: black;
     display: flex;
@@ -34,16 +33,18 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
 }
 .bar{
     padding: 7px;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 14.7%;
+    height: 13%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    translate: 0 142.5px;
+    position: relative;
+    top: 21.8%;
 }
 img{
     height: 100%;
@@ -51,7 +52,7 @@ img{
 h1{
     font-family: "CustomFont";
     padding-top: 20px;
-    font-size: 60px;
+    font-size: min(6.5vw,84.5px);
     font-weight: lighter;
 }
 #left-image-comment{
