@@ -100,12 +100,72 @@ img{
 
 .middle{
     height: 30%;
-    width: 100%;
+    width: 70%;
     background-color: white;
+    padding-left: 5%;
+    justify-content: space-between;
 }
+.middle h2{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: min(2.5vw,28px);
+}
+
+input, label{
+    display: block;
+    font-size: 8px;
+}
+form input{
+    width: min(20vw,260px);
+    height: min(1.8vw,23.4px);
+    border-radius: 2px;
+    border: solid #E5E7EB 1px;
+}
+.not-matched{
+    border-color: red;
+}
+h4{
+    font-size: 8px;
+    color: red;
+}
+
 .lower{
     height: 35%;
     width: 100%;
     background-color: red;
     background-color: rgb(247, 249, 250);
+    z-index: -1;
+    padding: 4%;
+}
+
+.lower button{
+    width: 25%;
+    height: 15%;
+    border-radius: 5px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    margin-bottom: 4.5%;
+    font-size: min(1.5vw,19.5px);
+    cursor: pointer;
+}
+
+.lower p{
+    font-size: min(1.2vw,13px);
+}
+
+.lower span{
+    color: #596D48;
+    cursor: pointer;
 }
