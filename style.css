@@ -142,7 +142,7 @@ h4{
 
 .lower{
     height: 35%;
-    width: 100%;
+    width: min(100%,calc(0.7*1300)px);
     background-color: red;
     background-color: rgb(247, 249, 250);
     z-index: -1;
